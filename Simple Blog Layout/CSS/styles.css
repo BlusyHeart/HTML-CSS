@@ -1,0 +1,55 @@
+body{
+    padding: 2rem;   
+}
+
+header
+,main
+,footer
+,img
+,h2
+,h1
+,ul{
+    margin-bottom: 20px;
+}
+
+main p{
+    margin-bottom: 20px;
+}
+
+header article{
+    display: inline-block;
+    width: 40%;
+    margin-right: 40px;
+}
+
+header aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 14%;
+}
+
+aside ul{
+    text-indent: 16px;
+    text-decoration: underline;    
+    color: blue;
+    list-style-type: square;            
+}
+
+aside h1{
+    font-size: 23px;    
+}
+
+ul li::marker {
+    color: black;
+    font-size: 1.1rem;   
+}
+
+main{
+    width: 40%;   
+}
+
+main ul{
+    padding-left: 70px;    
+    list-style: square;
+}
+
