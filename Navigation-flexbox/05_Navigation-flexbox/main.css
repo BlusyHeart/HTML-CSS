@@ -2,9 +2,14 @@ h1, a, p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*body*/
+
 body{
     padding: 55px 35px;
 }
+
+
+/*header*/
 
 .header{
     display: flex;
@@ -29,6 +34,9 @@ body{
     text-decoration: none;
 }
 
+
+/*main*/
+
 .main{
     display: flex;
     flex-direction: column;
@@ -39,6 +47,8 @@ body{
     flex-direction: column;
     gap: 10px;
 }
+
+/*media*/
 
 @media screen and (max-width: 488px){
     .header{
