@@ -1,0 +1,516 @@
+/*
+    bg - #070e27
+    primary - #0059f7
+    bg-light: #abafbb
+    gray - #7e8bb6
+    
+*/
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: var(--body-font-size, 20px);
+    background-color: #070e27;
+    color: #fff;
+}
+
+i{
+    color: #4e5a85
+}
+
+p {
+    color: #7e8bb6;    
+}
+
+.header{
+    display: flex;
+    flex-basis: 100%;
+    padding: 19px 32px;
+    border-bottom: 1px solid grey;
+    gap: 8px;  
+    align-items: center;
+    position: sticky;
+    background-color: #070e27;
+    top:0px;    
+}
+
+.navigation{
+    display: flex;
+    margin-left: auto;
+    margin-right: 34px;   
+}
+
+.navigation .nav_list{
+    display: flex; 
+    gap: 24px;        
+}
+    
+.navigation .nav_list .nav_item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    background-color: #162044;
+    color: white;
+    cursor: pointer; 
+}
+
+.btn.primary{
+    background-color: #0059f7;
+}
+
+.main{
+    padding: 45px;   
+     
+}
+
+.hero_info{
+    display: flex;     
+    margin: 0 auto 48px auto;   
+    justify-content: space-between;
+    max-width: 1050px;       
+}
+
+.hero_info > * {
+    width: 35.5%;
+}
+
+.hero_title {
+    
+    font-size: 45px;
+    line-height: 1.2;
+    
+}   
+
+.hero_content .hero_description{
+    margin-bottom: 20px;
+     
+}
+
+.hero_content .hero_pricing_plans_btn{
+    background-color:#0059f7;    
+}
+
+.hero_img{
+    margin: 0 auto 48px auto;   
+}
+
+.logos{
+    display: flex;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: 0 auto 48px auto;   
+    align-items: center;      
+}
+
+hr{
+    max-width: 1020px;    
+    height: 1px;
+    background-color: #161d3a;
+    border: none;
+    margin: 0 auto 48px auto;   
+}
+
+.features{      
+    max-width: 760px;
+    margin: 0 auto 48px auto;
+}
+
+.features_info{
+    
+    flex-basis: 32%;
+    margin-bottom: 25px;
+}
+
+.features_title{
+    font-size: 43px;
+    margin-bottom: 14px;
+}
+
+.features_description{
+    width: 37%;
+}
+
+.features_content{
+    display: grid;
+
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 25px;
+    margin: 0 auto 48px auto;
+}
+
+
+.features_content :hover{
+    background-color: #081131;
+}
+
+.features_content .item{
+    border: 1px solid #162044;
+    border-radius: 9px;   
+    padding: 30px;   
+}
+
+.features_content .item i{
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #7e8bb6;
+}
+
+.features_content .item h1{
+   
+    margin-bottom: 25px;
+    
+}
+
+.features_content .item p{
+    color: #ccd2e9;    
+    margin-bottom: 25px;
+}
+
+.free_trial{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    max-width: 760px;
+    margin: 0 auto 68px auto;
+    border-radius: 25px;
+    border: none;   
+    padding: 42px;
+    background-color: #0059f7;
+    color: white;
+    cursor: pointer; 
+    text-align: center;  
+}
+
+.free_trial button{
+    border-radius: 7px;
+    max-width: 100%;
+    height:50px;
+    padding: 10px;
+    border: none;   
+    background-color: #689eff;
+    color: white;
+}
+
+.saflow_how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 48px auto;
+    max-width: 1280px;
+   
+}
+
+.saflow_how_intro{
+    
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.saflow_intro h1{
+    font-size: 43px;    
+}
+
+.saflow_content{
+    display: flex;    
+    flex-direction: column;   
+    gap: 95px;        
+}
+
+.saflow_content .description1, .description2, .description3{
+    max-width: 350px;
+}
+
+.saflow_content .content1, .content2, .content3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 95px;
+}
+
+
+
+.saflow_pricing h1{
+    margin-bottom: 48px;
+    font-size: 43px;
+    text-align: center;
+}
+
+.saflow_pricing p{
+   
+    text-align: center;
+}
+
+.saflow_pricing{
+    margin: 0 auto 48px auto;
+    width: 90%;
+}
+
+.saflow_pricing_content{
+    display: flex;        
+    justify-content: center;    
+    align-items: end;    
+    gap: 25px;   
+}
+
+.saflow_pricing_content .content_item:nth-child(even){
+    margin-bottom:50px;
+    
+}
+
+.content_item{
+    display: flex;    
+    flex-direction: column;
+    background-color: #081131;
+    border: none;
+    border-radius: 9px;   
+    padding: 35px;   
+}
+
+.content_item p{
+    text-align: left;
+}
+
+.content_list{
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 35px;
+    gap:25px;
+}
+
+.item_info{
+    border-bottom: 1px solid #131c3e;
+    padding-bottom: 35px;
+    margin-bottom: 15px;  
+}
+
+.item_info p{
+    font-size: 17px;    
+    margin-bottom: 12px;
+}
+
+.item_info i p{
+    display: inline;
+    color: #fff;
+    font-size: 45px;
+}
+
+.item_info i{
+    font-size: 43px;
+}
+
+.content_list i p{
+    display: inline;
+    color: #b6bcd4;
+    margin-left: 15px;
+}
+
+.content_item button{
+    border-radius: 7px;
+    width: 65%;   
+    padding: 15px;
+    border: none;   
+    background-color: #4e5a85;
+    color: white;
+}
+
+.content_item:nth-child(odd) button{
+    background-color: #4e5a85;
+}
+
+.content_item:nth-child(even) button{
+    background-color: #0059f7;
+}
+
+.free_trial1 {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 48px auto;  
+    border-radius: 7px;    
+    width: 50%;    
+    padding: 25px;
+    border: none;   
+    background-color: #0059f7;
+    color: white;
+}
+
+.free_trial1 button{
+    border-radius: 7px;   
+    padding: 10px;
+    width: 25%;    
+    border: none;   
+    background-color: #689eff;
+    color: white;
+}
+
+@media screen and (max-width: 1103px) {
+    .saflow_content .content1, .content2, .content3 {
+                              
+        flex-direction: column;   
+                      
+    }    
+}
+
+@media screen and (max-width:1447px){
+    .free_trial1{
+        flex-direction: column;
+             
+    }
+
+    .free_trial1 button{
+        display: flex;
+        justify-content: center;           
+        width: 43%;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .free_trial1 div{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hero_info{
+        
+        flex-direction: column;         
+        align-items: center;   
+        gap: 32px;
+        text-align: center;
+        width: 100%;
+                            
+    } 
+    
+    .hero_content{
+        align-items: center;
+    }
+
+  
+     
+}
+
+@media screen and (max-width: 1103px) {
+    .saflow_content .content1, .content2, .content3 {
+                              
+        flex-direction: column;   
+                      
+    }    
+}
+
+@media screen and (max-width:932px){
+    .free_trial1{
+       width: 100%;         
+    }
+
+    
+}
+
+@media screen and (max-width: 821px) {
+
+    .features_info {
+        
+       text-align: center;
+    
+    }
+
+    .features_info p{
+        
+        width: 100%;
+ 
+    }
+
+    .features_content{
+        display: flex;        
+        flex-direction: column;   
+        align-items: center;   
+        text-align: center;                        
+    }    
+}
+
+@media screen and (max-width:806px){
+ 
+    .free_trial1 button{
+                 
+        width: 100%;
+       
+       
+    }
+}
+
+
+
+@media screen and (max-width: 793px) {
+    .header .navigation{
+                              
+       display: none;
+                      
+    }    
+
+    .header .btn{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .saflow_pricing_content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 633px) {
+
+   .hero_title{
+       
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+
+    .btn.primary{
+       padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+
+    .hero_title{
+        font-size: 42px;
+    }
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
