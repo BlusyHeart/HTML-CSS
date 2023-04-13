@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content:center;
+    align-items:center;
+}
+
+.gallery{
+   display: flex;
+   justify-content: center;
+   width: 60%;
+   gap: 20px
+   
+}
+
+.gallery img:nth-child(1),
+.gallery img:nth-child(3),
+.gallery img:nth-child(4){
+    
+    width: 10%;
+    object-fit: cover;    
+    border-radius: 6px;
+    box-shadow: 1px 1px 9px 0 black;
+   
+  
+}
+
+.gallery img:nth-child(2){
+    width: 70%;
+    object-fit: cover;
+    border-radius: 6px;  
+    box-shadow: 1px 1px 15px 0 black;
+}
